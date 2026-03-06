@@ -1,0 +1,30 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+python-multipart
+pillow
+google-generativeai>=0.4.0
+python-dotenv
+psycopg2-binary
+google-auth
+
+# Notification and Communication
+twilio>=8.0.0
+schedule>=1.2.0
+
+# PDF Generation
+reportlab>=4.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Email Support
+secure-smtplib>=0.1.1
+
+# JWT for OTP tokens
+PyJWT>=2.8.0
+
+# Additional utilities
+python-dateutil>=2.8.0
