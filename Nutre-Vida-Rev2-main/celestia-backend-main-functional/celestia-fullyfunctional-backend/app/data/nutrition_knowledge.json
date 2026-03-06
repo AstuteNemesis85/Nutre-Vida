@@ -1,0 +1,186 @@
+{
+  "categories": {
+    "indian_nutrition_basics": [
+      {
+        "id": "inb_001",
+        "title": "Complete Protein from Dal-Rice Combination",
+        "content": "The classic Indian dal and rice combination provides complete protein. Rice is low in lysine but high in methionine, while lentils (dal) are high in lysine but low in methionine. Together they form a complete amino acid profile equivalent to animal protein. A serving of 1 cup rice with 1 cup dal provides approximately 15-18g of complete protein. This is especially important for vegetarian Indians who rely on plant-based protein sources.",
+        "tags": ["protein", "vegetarian", "dal", "rice", "amino acids", "indian food"]
+      },
+      {
+        "id": "inb_002",
+        "title": "Iron Deficiency in Indian Diet",
+        "content": "Iron deficiency anemia affects approximately 50% of Indian women and 25% of Indian men. Key iron-rich Indian foods include: spinach (palak) - 2.7mg per 100g, fenugreek leaves (methi) - 16.5mg per 100g, jaggery (gud) - 11mg per 100g, bajra (pearl millet) - 8mg per 100g, ragi (finger millet) - 3.9mg per 100g, and black sesame seeds (til) - 14.6mg per 100g. Vitamin C from lemon, amla, or tomato significantly enhances non-heme iron absorption. Tea and coffee should be avoided with meals as they inhibit iron absorption.",
+        "tags": ["iron", "anemia", "deficiency", "palak", "methi", "jaggery", "indian women"]
+      },
+      {
+        "id": "inb_003",
+        "title": "Calcium Sources in Indian Vegetarian Diet",
+        "content": "Many Indians are lactose intolerant or follow vegan diets. Excellent non-dairy calcium sources in Indian cuisine include: ragi (finger millet) - 344mg per 100g (highest among cereals), sesame seeds (til) - 975mg per 100g, amaranth leaves (chaulai) - 215mg per 100g, drumstick leaves (moringa/sahjan) - 440mg per 100g, dried figs (anjeer) - 162mg per 100g. Dairy sources: paneer (208mg/100g), curd/yogurt (149mg/100g), milk (125mg/100ml). Daily requirement: 600-1000mg for adults.",
+        "tags": ["calcium", "bones", "ragi", "sesame", "paneer", "vegetarian", "dairy"]
+      },
+      {
+        "id": "inb_004",
+        "title": "Glycemic Index of Common Indian Foods",
+        "content": "Understanding glycemic index (GI) is crucial for diabetes management, affecting 77 million Indians. Low GI Indian foods (below 55): rajma (29), chana dal (8), moong dal (38), barley (daliya - 28), oats (55). Medium GI (56-69): basmati rice (58), whole wheat roti (62), brown rice (68). High GI (70+): white rice (73), white bread (75), potato (78), watermelon (76). Tips: Adding dal to rice lowers the meal's overall GI. Cooling rice overnight creates resistant starch, lowering GI by 10-15 points.",
+        "tags": ["diabetes", "glycemic index", "blood sugar", "rice", "roti", "indian diet"]
+      },
+      {
+        "id": "inb_005",
+        "title": "Protein Content in Indian Vegetarian Foods",
+        "content": "Common Indian vegetarian protein sources per 100g: Soybean (36g), paneer (18g), tofu (8g), chana/chickpeas (19g), rajma/kidney beans (24g), moong dal (24g), toor dal (22g), masoor dal (25g), peanuts (26g), almonds/badam (21g), cashews/kaju (18g), curd/yogurt (11g), milk (3.4g), green peas/matar (5g), mushrooms (3g). Daily protein requirement: 0.8-1g per kg body weight for adults, 1.2-1.6g for active individuals. A 60kg vegetarian Indian needs at least 48-60g protein daily.",
+        "tags": ["protein", "vegetarian", "paneer", "dal", "soybean", "daily requirement"]
+      },
+      {
+        "id": "inb_006",
+        "title": "Healthy Cooking Oils in Indian Kitchen",
+        "content": "Indian cooking involves various oils with different smoke points and health profiles. Mustard oil: Rich in omega-3 (alpha-linolenic acid), ideal for tempering and Bengali/North Indian cooking. Coconut oil: High in medium-chain triglycerides (MCTs), preferred in South Indian and Kerala cuisine, good for medium-heat cooking. Groundnut/peanut oil: Balanced omega profile, high smoke point, ideal for frying. Sesame/gingelly oil: Rich in antioxidants (sesamol), used in South Indian cuisine. Ghee: Contains butyrate (gut health), fat-soluble vitamins A/D/E/K, high smoke point (250°C). Use 2-3 teaspoons of oil per meal. Avoid reusing oil for deep frying more than twice.",
+        "tags": ["oil", "cooking", "ghee", "mustard oil", "coconut oil", "fat", "omega-3"]
+      }
+    ],
+    "dietary_guidelines": [
+      {
+        "id": "dg_001",
+        "title": "ICMR Recommended Dietary Allowances for Indians",
+        "content": "The Indian Council of Medical Research (ICMR) recommends for adult Indians: Calories: 2320 kcal (sedentary male), 1900 kcal (sedentary female), 2730 kcal (moderate activity male), 2230 kcal (moderate activity female). Protein: 54g (male), 45g (female). Fat: 20-30% of total calories. Fiber: 30-40g daily. Calcium: 600mg (adults), 1200mg (pregnant women). Iron: 17mg (male), 21mg (female). Vitamin C: 40mg. Vitamin A: 600mcg (male), 600mcg (female). The Indian diet typically provides adequate carbohydrates but is often deficient in protein, calcium, iron, and vitamins A and C.",
+        "tags": ["ICMR", "RDA", "calories", "protein", "guidelines", "daily requirements"]
+      },
+      {
+        "id": "dg_002",
+        "title": "Balanced Indian Thali Composition",
+        "content": "A balanced Indian thali should follow the plate method: 1/4 plate grains (2 rotis or 1 cup rice), 1/4 plate protein (1 cup dal + 50g paneer/chicken), 1/2 plate vegetables (1 cup cooked sabzi + raw salad). Add: 1 cup curd/raita, 1 small fruit. This provides approximately 500-600 calories, 20-25g protein, 60-70g carbs, 15-20g fat, and adequate fiber. For weight loss: reduce grain portion to 1 roti or 3/4 cup rice. For muscle gain: increase protein portion with extra dal, eggs, or paneer.",
+        "tags": ["thali", "balanced meal", "plate method", "portion", "weight loss", "muscle gain"]
+      },
+      {
+        "id": "dg_003",
+        "title": "Intermittent Fasting and Indian Meal Patterns",
+        "content": "Traditional Indian eating patterns naturally align with intermittent fasting. Many families follow early dinner (by 7 PM) and late breakfast (8-9 AM), creating a natural 13-14 hour fast. The 16:8 method works well with Indian schedules: eating window 11 AM - 7 PM, including lunch and early dinner. During fasting periods, water, black tea, and herbal drinks (jeera water, ajwain water) are allowed. Break fast with light foods: fruit, idli, upma, or poha rather than heavy parathas. Religious fasting (Navratri, Ekadashi, Ramadan) also provides intermittent fasting benefits when done mindfully.",
+        "tags": ["intermittent fasting", "meal timing", "16:8", "fasting", "indian traditions"]
+      },
+      {
+        "id": "dg_004",
+        "title": "Managing Diabetes with Indian Diet",
+        "content": "India is the diabetes capital of the world with 77 million diabetics. Key dietary strategies: Replace white rice with brown rice, millets (jowar, bajra, ragi), or cauliflower rice. Choose whole wheat atta over maida. Include bitter gourd (karela), fenugreek seeds (methi dana), and cinnamon (dalchini) which have blood sugar lowering properties. Eat protein with every meal to slow sugar absorption. Prefer dal-roti over rice-based meals. Limit fruit to 2 servings (avoid mango, banana, grapes in excess). Include raw salad before meals to lower post-meal sugar spike. Ideal meal timing: eat every 3-4 hours, never skip meals.",
+        "tags": ["diabetes", "blood sugar", "karela", "millets", "methi", "indian diet management"]
+      },
+      {
+        "id": "dg_005",
+        "title": "Heart-Healthy Indian Diet (DASH Indian)",
+        "content": "Cardiovascular disease is the leading cause of death in India. Heart-healthy Indian diet guidelines: Increase omega-3 intake through walnuts (akhrot), flaxseeds (alsi), and fatty fish. Use mustard oil or olive oil instead of palm oil or vanaspati. Limit sodium to 5g/day (1 teaspoon salt) - Indian diets average 10-11g. Reduce pickle, papad, and processed food intake. Include garlic (lahsun), turmeric (haldi), and ginger (adrak) which have anti-inflammatory properties. Eat 5 servings of fruits and vegetables daily. Replace full-cream milk with toned milk. Limit red meat to once a week. Include oats, barley, and psyllium husk (isabgol) for soluble fiber.",
+        "tags": ["heart health", "cholesterol", "omega-3", "sodium", "cardio", "turmeric"]
+      }
+    ],
+    "ayurvedic_principles": [
+      {
+        "id": "ay_001",
+        "title": "Ayurvedic Six Tastes (Shadrasa) in Meal Planning",
+        "content": "Ayurveda recommends including all six tastes in every meal for complete nutrition and satisfaction: Sweet (Madhura) - rice, wheat, milk, ghee - provides energy and builds tissues. Sour (Amla) - lemon, tamarind, yogurt, tomato - aids digestion and mineral absorption. Salty (Lavana) - salt, seaweed - maintains electrolyte balance. Pungent (Katu) - black pepper, ginger, chili, garlic - boosts metabolism and circulation. Bitter (Tikta) - bitter gourd, methi, turmeric, neem - detoxifies and reduces inflammation. Astringent (Kashaya) - pomegranate, banana, turmeric, beans - has anti-inflammatory properties. A balanced Indian thali naturally includes most of these tastes.",
+        "tags": ["ayurveda", "six tastes", "shadrasa", "meal planning", "digestion", "holistic"]
+      },
+      {
+        "id": "ay_002",
+        "title": "Ayurvedic Food Combinations (Viruddha Ahara)",
+        "content": "Ayurveda identifies specific food combinations that may cause digestive issues: Avoid: Milk with sour fruits (banana milkshake is debated), fish with milk, honey heated above 40°C, cold water with meals (slows digestion). Recommended combinations: Turmeric with black pepper (piperine increases curcumin absorption by 2000%), lemon with iron-rich foods (enhances iron absorption), ghee with rice (aids nutrient absorption), cumin/ajwain/fennel after meals (reduces bloating). While some of these principles lack modern scientific validation, many align with digestive enzyme optimization and nutrient bioavailability research.",
+        "tags": ["ayurveda", "food combinations", "digestion", "turmeric", "black pepper", "viruddha"]
+      },
+      {
+        "id": "ay_003",
+        "title": "Healing Spices in Indian Kitchen",
+        "content": "Indian spices are functional foods with documented health benefits: Turmeric (haldi): Curcumin is anti-inflammatory, antioxidant. Best absorbed with black pepper and fat. 1/2 tsp daily recommended. Ginger (adrak): Anti-nausea, anti-inflammatory, aids digestion. Fresh ginger tea is excellent. Cinnamon (dalchini): Lowers blood sugar, anti-microbial. 1/4 tsp daily may help diabetics. Cumin (jeera): Aids digestion, rich in iron (66mg/100g), improves cholesterol. Fenugreek (methi): Lowers blood sugar, increases milk production in nursing mothers. Cardamom (elaichi): Digestive, lowers blood pressure, freshens breath. Black pepper (kali mirch): Enhances nutrient absorption, thermogenic. Ajwain (carom seeds): Relieves bloating, gas, and indigestion.",
+        "tags": ["spices", "turmeric", "ginger", "cinnamon", "cumin", "healing", "ayurveda"]
+      }
+    ],
+    "meal_planning_templates": [
+      {
+        "id": "mp_001",
+        "title": "Weight Loss Indian Meal Plan Template (1500 calories)",
+        "content": "Sample 1500 calorie Indian weight loss day: Early morning (6 AM): Warm water with lemon + 5 soaked almonds (70 cal). Breakfast (8 AM): 2 moong dal chilla with mint chutney + 1 cup green tea (250 cal, 14g protein). Mid-morning (10:30 AM): 1 fruit (apple/guava/papaya) (80 cal). Lunch (1 PM): 1 cup brown rice + 1 cup dal + 1 cup palak sabzi + raita + salad (450 cal, 18g protein). Evening snack (4 PM): 1 cup sprouts chaat with lemon (120 cal, 8g protein). Dinner (7 PM): 2 multigrain roti + 1 cup chicken/paneer curry + cucumber raita (430 cal, 22g protein). Before bed: 1 cup warm turmeric milk (100 cal). Total: ~1500 cal, 65g protein, 45g fat, 180g carbs.",
+        "tags": ["weight loss", "1500 calories", "meal plan", "diet plan", "low calorie", "indian"]
+      },
+      {
+        "id": "mp_002",
+        "title": "Muscle Gain Indian Meal Plan Template (2500 calories)",
+        "content": "Sample 2500 calorie Indian muscle gain day: Early morning (6 AM): 2 whole eggs + 2 egg whites scrambled + 1 banana (280 cal, 22g protein). Breakfast (8 AM): 1 cup oats with milk + 1 scoop whey or 2 tbsp peanut butter + berries (400 cal, 25g protein). Mid-morning (10:30 AM): Handful of mixed nuts + 1 cup buttermilk (200 cal, 8g protein). Lunch (1 PM): 2 roti + 1.5 cup rajma/chole + rice + salad + curd (550 cal, 24g protein). Post-workout (4 PM): Protein shake or 2 boiled eggs + 1 banana (250 cal, 20g protein). Dinner (7:30 PM): 2 roti + grilled chicken/paneer tikka + dal + sabzi (520 cal, 30g protein). Before bed: 1 cup paneer bhurji or Greek yogurt (300 cal, 20g protein). Total: ~2500 cal, 150g protein, 70g fat, 280g carbs.",
+        "tags": ["muscle gain", "2500 calories", "high protein", "bodybuilding", "bulking", "indian"]
+      },
+      {
+        "id": "mp_003",
+        "title": "PCOS-Friendly Indian Diet Plan",
+        "content": "PCOS affects 20% of Indian women. Key dietary principles: Focus on low-GI foods, anti-inflammatory ingredients, adequate protein. Breakfast options: Ragi dosa, besan chilla, vegetable oats upma (avoid sugary cereals, white bread). Lunch: Millets (jowar/bajra roti) instead of wheat, generous protein (dal + paneer/chicken), lots of vegetables. Include anti-inflammatory foods: turmeric milk, flaxseeds (1 tbsp daily), cinnamon, green tea, spearmint tea. Avoid: refined carbs, sugary drinks, excessive dairy (may worsen hormonal imbalance), processed foods. Supplements to discuss with doctor: Vitamin D, Inositol, Omega-3, Chromium. Regular meals every 3-4 hours to stabilize insulin levels.",
+        "tags": ["PCOS", "women health", "hormonal", "low GI", "millets", "anti-inflammatory"]
+      },
+      {
+        "id": "mp_004",
+        "title": "Pregnancy Nutrition Indian Guide",
+        "content": "Key nutrients during pregnancy with Indian food sources: Folic acid (first trimester critical): Palak, methi, rajma, green moong, orange, fortified atta. Aim 600mcg daily. Iron: Double requirement (35mg/day). Include jaggery, bajra, garden cress seeds (halim), dates (khajoor), pomegranate. Calcium: 1200mg daily - ragi porridge, milk, curd, paneer, sesame laddu. Protein: Extra 23g/day needed. Dal, chana, egg, paneer, chicken, fish (avoid raw). DHA/Omega-3: Walnuts, flaxseeds, fatty fish (limit to 2 servings/week). Foods to avoid: Papaya (unripe), pineapple (excess), ajinomoto, raw sprouts, unpasteurized dairy, excess caffeine (limit to 200mg/day). Traditional foods: Dry fruit laddu, ragi malt, badam milk are excellent pregnancy snacks.",
+        "tags": ["pregnancy", "prenatal", "folic acid", "iron", "calcium", "indian food", "women"]
+      }
+    ],
+    "common_foods_nutrition": [
+      {
+        "id": "cfn_001",
+        "title": "Nutritional Profile of Common Indian Breakfast Items",
+        "content": "Per serving nutritional data for Indian breakfasts: Idli (2 pieces, 80g): 130 cal, 4g protein, 0.4g fat, 26g carbs - light, easily digestible, fermented (probiotic). Dosa (1 plain, 50g): 120 cal, 3g protein, 3g fat, 20g carbs. Masala dosa: 250 cal with potato filling. Upma (1 cup): 200 cal, 5g protein, 7g fat, 28g carbs. Poha (1 cup): 180 cal, 3g protein, 5g fat, 32g carbs - rich in iron (flattened rice is iron-fortified). Paratha (1 plain wheat): 220 cal, 5g protein, 10g fat, 28g carbs. Aloo paratha: 300 cal. Puri (2 pieces): 200 cal, 4g protein, 10g fat. Uttapam (1): 150 cal, 5g protein, 4g fat. Pesarattu (moong dal dosa): 145 cal, 8g protein - highest protein breakfast option.",
+        "tags": ["breakfast", "idli", "dosa", "paratha", "poha", "upma", "calories", "nutrition data"]
+      },
+      {
+        "id": "cfn_002",
+        "title": "Nutritional Profile of Indian Breads",
+        "content": "Per piece nutritional comparison of Indian breads: Wheat roti/chapati (30g atta): 100 cal, 3g protein, 0.4g fat, 20g carbs, 2g fiber. Tandoori roti: 120 cal, slightly higher due to cooking method. Naan (1 piece): 260 cal, 8g protein, 5g fat, 45g carbs - made with maida (refined flour). Garlic naan: 300 cal. Butter naan: 320 cal. Kulcha: 280 cal. Roomali roti: 90 cal (thinner). Bajra roti (pearl millet): 110 cal, 3.5g protein, higher iron and fiber than wheat. Jowar roti (sorghum): 105 cal, 3g protein, gluten-free. Ragi roti: 110 cal, 2.5g protein, richest in calcium. Makki roti (corn): 120 cal, 3g protein. For health: prefer bajra/jowar/ragi rotis over naan/kulcha.",
+        "tags": ["roti", "naan", "bread", "chapati", "bajra", "jowar", "millet", "calories"]
+      },
+      {
+        "id": "cfn_003",
+        "title": "Nutritional Profile of Common Indian Curries and Dals",
+        "content": "Per cup (240ml) serving: Toor dal/arhar dal: 198 cal, 14g protein, 1g fat - staple protein source. Moong dal (yellow): 207 cal, 14g protein, easily digestible. Chana dal: 203 cal, 12g protein, lowest GI among dals. Masoor dal (red lentil): 230 cal, 18g protein - fastest cooking, highest protein. Rajma (kidney bean) curry: 225 cal, 15g protein - complete protein with rice. Chole/chana masala: 270 cal, 15g protein - high fiber. Paneer butter masala: 350 cal, 18g protein, 22g fat - high calorie due to cream/butter. Palak paneer: 280 cal, 16g protein. Dal makhani: 260 cal, 12g protein, 10g fat. Sambhar: 130 cal, 6g protein - light and nutritious. Rasam: 45 cal, 1g protein - very low calorie, good for digestion.",
+        "tags": ["dal", "curry", "rajma", "chole", "paneer", "sambhar", "protein", "calories"]
+      },
+      {
+        "id": "cfn_004",
+        "title": "Nutritional Profile of Indian Rice Dishes",
+        "content": "Per cup cooked serving: Plain white rice: 206 cal, 4g protein, 0.4g fat, 45g carbs, GI ~73. Brown rice: 218 cal, 5g protein, 1.8g fat, 46g carbs, GI ~68, 3.5g fiber. Jeera rice: 230 cal. Pulao/pilaf: 250 cal, 5g protein. Biryani (chicken, 1 cup): 350 cal, 18g protein, 12g fat. Vegetable biryani: 240 cal, 6g protein. Lemon rice: 230 cal. Curd rice: 200 cal, 7g protein - probiotic benefit from curd. Khichdi (dal + rice): 200 cal, 8g protein - complete protein, easily digestible, comfort food. Pongal: 250 cal, 7g protein. For healthier options: Replace white rice with hand-pounded rice, red rice, or mix 50% white rice with 50% millets.",
+        "tags": ["rice", "biryani", "khichdi", "pulao", "calories", "carbs", "GI"]
+      },
+      {
+        "id": "cfn_005",
+        "title": "Nutritional Profile of Indian Snacks and Street Food",
+        "content": "Per serving: Samosa (1 piece): 250 cal, 4g protein, 14g fat - deep fried, high calorie. Vada pav (1): 290 cal, 5g protein, 15g fat. Pani puri (6 pieces): 180 cal, 3g protein. Bhel puri (1 plate): 200 cal, 4g protein - relatively healthier street food. Pav bhaji (1 serving): 400 cal, 10g protein. Kachori (1): 200 cal, 12g fat. Dhokla (4 pieces): 160 cal, 6g protein - fermented, steamed, healthier option. Sprouts chaat: 120 cal, 8g protein - healthiest snack option. Roasted chana: 140 cal, 8g protein per 30g. Makhana (fox nuts, 30g): 100 cal, 3g protein - low calorie, good for weight loss. Healthier alternatives: Choose dhokla, sprouts, makhana, roasted chana over fried snacks.",
+        "tags": ["snacks", "street food", "samosa", "bhel", "dhokla", "calories", "fat"]
+      }
+    ],
+    "health_conditions": [
+      {
+        "id": "hc_001",
+        "title": "Thyroid-Friendly Indian Diet",
+        "content": "Hypothyroidism affects 11% of Indians. Dietary management: Include selenium-rich foods: Brazil nuts, eggs, mushrooms, sunflower seeds. Include zinc: pumpkin seeds, chickpeas, cashews. Iodine sources: iodized salt (don't switch to rock salt/pink salt), dairy, eggs. Goitrogens (consume cautiously): Raw cruciferous vegetables (cabbage, cauliflower, broccoli) can interfere with thyroid. Cooking reduces goitrogenic effect by 80%. Soy products in excess may interfere with thyroid medication. Take thyroid medication on empty stomach, 30 min before food. Avoid: excessive caffeine, processed foods, gluten (if Hashimoto's). Helpful Indian foods: Coconut oil (supports thyroid), ashwagandha (adaptogenic herb), badam (vitamin E).",
+        "tags": ["thyroid", "hypothyroid", "iodine", "selenium", "goitrogen", "ashwagandha"]
+      },
+      {
+        "id": "hc_002",
+        "title": "Gut Health and Indian Fermented Foods",
+        "content": "India has a rich tradition of fermented foods excellent for gut health: Probiotic foods: Curd/dahi (Lactobacillus), buttermilk/chaas, kanji (fermented carrot drink), idli/dosa batter (Lactobacillus, Leuconostoc), dhokla, appam, ambali (fermented ragi), pickles (naturally fermented, not vinegar-based), kombucha. Prebiotic foods (feed good bacteria): Garlic, onion, banana (raw/green), whole grains, legumes, asparagus. Signs of poor gut health: bloating after meals, constipation, frequent gas, acid reflux, skin issues. Tips: Include 1 serving of fermented food with each meal, start meals with raw salad (fiber), drink warm water (not cold) with meals, avoid antibiotics unless necessary, limit processed foods and artificial sweeteners.",
+        "tags": ["gut health", "probiotics", "fermented", "curd", "idli", "digestion", "microbiome"]
+      },
+      {
+        "id": "hc_003",
+        "title": "Anti-Inflammatory Indian Diet for Joint Pain and Arthritis",
+        "content": "Inflammation-related conditions are rising in India. Anti-inflammatory Indian foods: Turmeric milk (golden milk/haldi doodh): 1/2 tsp turmeric + pinch black pepper + warm milk daily. Ginger: Add to tea, curries, or chew raw. Garlic: 2 cloves daily on empty stomach. Omega-3 sources: Walnuts, flaxseeds, chia seeds, fatty fish. Green leafy vegetables: Palak, methi, sarson. Whole grains and millets. Foods that increase inflammation (reduce/avoid): Refined sugar, maida products, deep-fried foods, processed meats, excessive omega-6 oils (sunflower, safflower), trans fats (vanaspati/dalda), excessive alcohol. Helpful spices: Turmeric, ginger, cinnamon, clove, black pepper, fenugreek.",
+        "tags": ["inflammation", "arthritis", "joint pain", "turmeric", "anti-inflammatory", "omega-3"]
+      }
+    ],
+    "fitness_nutrition": [
+      {
+        "id": "fn_001",
+        "title": "Pre and Post Workout Indian Foods",
+        "content": "Pre-workout (30-60 min before): Banana + handful of almonds (quick energy + sustained release), or 2 idli with chutney, or oats with banana, or 1 roti with peanut butter. Avoid heavy meals, dairy, high-fat foods before exercise. Post-workout (within 30-45 min): Focus on protein + carbs in 1:3 ratio. Options: Paneer bhurji with roti, egg white omelette with bread, protein smoothie (banana + milk + peanut butter), sprouts salad with lemon, curd rice with dal, chicken breast with rice. For muscle recovery: Include turmeric milk at night (anti-inflammatory), adequate sleep (7-8 hours), 1.5-2g protein per kg body weight for active individuals, stay hydrated (3-4 liters water + coconut water/nimbu pani).",
+        "tags": ["workout", "pre-workout", "post-workout", "exercise", "muscle", "recovery", "protein"]
+      },
+      {
+        "id": "fn_002",
+        "title": "Hydration and Indian Beverages",
+        "content": "Proper hydration is essential, especially in Indian climate: Daily water requirement: 2.5-3.5 liters (more in summer, during exercise). Healthy Indian drinks: Coconut water (nariyal pani) - natural electrolyte, 45 cal per cup. Buttermilk (chaas) - probiotic, cooling, adds calcium. Nimbu pani (lemon water) - vitamin C, aids iron absorption. Jaljeera - cumin-based digestive drink. Aam panna (raw mango drink) - prevents heat stroke, rich in vitamin C. Sattu drink - roasted gram flour drink, cooling, 15g protein per glass. Kokum sherbet - antioxidant-rich, aids digestion. Avoid/limit: Packaged fruit juices (high sugar), energy drinks, excessive chai (limit 2-3 cups, tannins inhibit iron absorption), sugary lassi. Signs of dehydration: dark urine, headache, fatigue, dry skin.",
+        "tags": ["hydration", "water", "drinks", "coconut water", "buttermilk", "summer", "electrolyte"]
+      }
+    ]
+  }
+}
