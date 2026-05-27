@@ -246,6 +246,80 @@ This section maps the statement below to the **actual implementation**:
 4. LLM generates strict JSON day-wise meal plan.
 5. Response returned with `generation_method: "langgraph_rag"`.
 
+### D. Precise architecture diagram (main branch, code-mapped)
+
+> **Gemini nanoBanana status:** No `nanoBanana` model variant is referenced in this codebase.  
+> Current implementation uses:
+> - **Embeddings:** `models/gemini-embedding-001` in `app/services/rag_service.py::RAGService`
+> - **Generation:** `models/gemini-2.5-flash` in `app/services/langgraph_agent.py::_get_llm` (and `analysis_service.py` for food analysis/refinement)
+
+```plantuml
+@startuml
+title Nutre-Vida multimodal + RAG + LangGraph architecture (actual code path)
+
+actor User
+
+rectangle "Frontend (React)\nFoodAnalysis.js / AIHealthCoach.js" as FE
+rectangle "FastAPI Routers\nanalysis.py + agentic_ai.py" as API
+rectangle "Preprocessing + Analysis\nanalysis_service.py::analyze_food_image" as PRE
+rectangle "Gemini LLM (food parsing)\nmodels/gemini-2.5-flash" as G_PARSE
+database "SQL Meal Store\nuser_service.py::log_meal" as SQL_MEALS
+rectangle "RAG Service\nrag_service.py::RAGService" as RAG
+rectangle "Gemini Embeddings\nmodels/gemini-embedding-001" as EMB
+database "ChromaDB\nnutrition_knowledge/user_meals/conversation_memory" as CHROMA
+rectangle "LangGraph Orchestration\nlanggraph_agent.py::build_health_coach_graph" as LG
+rectangle "Gemini Chat LLM\nlanggraph_agent.py::_get_llm\nmodels/gemini-2.5-flash" as G_CHAT
+database "SQL Conversation Memory\nconversation_memory_service.py" as SQL_MEM
+
+User --> FE : image/text + chat
+FE --> API : /analysis/*, /agentic/chat/{user_id}
+
+API --> PRE : image/text preprocessing + structuring
+PRE --> G_PARSE : multimodal meal understanding
+G_PARSE --> API : analysis_data + need_clarification
+API --> SQL_MEALS : persist meal data
+
+API --> SQL_MEM : store/retrieve chat memory
+API --> LG : run_health_coach(...)
+LG --> RAG : retrieve_context(...)
+RAG --> EMB : embed query/documents
+EMB --> CHROMA : vector add/query
+CHROMA --> LG : relevant context (RAG)
+LG --> G_CHAT : build prompt + generate
+G_CHAT --> LG : response (optional tool calls)
+LG --> RAG : index_conversation(user/assistant turns)
+LG --> API : final_response
+API --> FE : personalized response
+FE --> User : answer + follow-up actions
+@enduml
+```
+
+### E. LangGraph node flow (+ RAG loop, memory, HITL mapping)
+
+```mermaid
+flowchart TD
+  A[Input message\nagentic_ai.py::enhanced_chat\nEnhancedAgenticService.enhanced_chat] --> B[Node: analyze_intent\nlanggraph_agent.py::analyze_intent]
+  B --> C[Node: retrieve_context\nlanggraph_agent.py::retrieve_context]
+  C --> C1[RAG queries\nrag_service.py::retrieve_nutrition_knowledge\nretrieve_user_meals\nretrieve_conversation_context]
+  C1 --> C2[ChromaDB collections\nnutrition_knowledge/user_meals/conversation_memory]
+  C2 --> D[Node: generate\nlanggraph_agent.py::build_prompt_and_call_llm\nGemini models/gemini-2.5-flash]
+  D --> E{should_use_tools?\nlanggraph_agent.py::should_use_tools}
+  E -->|yes| F[ToolNode(ALL_TOOLS)\nsearch_nutrition_kb/search_user_meals/...]
+  F --> D
+  E -->|no| G[Node: format_output\nlanggraph_agent.py::format_output]
+  G --> H[Post-graph memory write\nrun_health_coach -> rag.index_conversation\nEnhancedAgenticService -> store_conversation(SQL)]
+  H --> I[API response to frontend]
+```
+
+**How the required loops/memory/HITL are handled (actual code):**
+- **RAG loop in LangGraph:** `generate -> tools -> generate` while tool calls exist (`build_health_coach_graph`, `should_use_tools`).
+- **Memory retrieval in LangGraph step:** `retrieve_context` pulls user meals + prior conversation vectors from ChromaDB via `RAGService`.
+- **Memory storage after generation:** `run_health_coach` writes user/assistant turns to vector memory; `EnhancedAgenticService.enhanced_chat` writes SQL conversation memory.
+- **HITL clarification loop (implemented, but outside chat LangGraph):**
+  - `analysis.py` returns clarification questions when `need_clarification=true`
+  - user answers through `/analysis/refine/{session_id}` (or `/analysis/skip_clarification/{session_id}`)
+  - refinement uses `analysis_service.py::refine_analysis_with_answers`
+
 ## 🛠️ Configuration
 
 
